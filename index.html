@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="name">Score-Board <br><button id="reset-btn-el">New Game</button></h1>
+        <section class="home">
+            <h3>Home</h3>
+            <h1 id="home-count-el">0</h1>
+            <div class="btn">
+                <button id="home-one-increment-btn">+1</button>
+                <button id="home-two-increment-btn">+2</button>
+                <button id="home-three-increment-btn">+3</button>
+            </div>
+
+        </section>
+
+        <section class="Guest">
+            <h3>Guest</h3>
+            <h1 id="guest-count-el">0</h1>
+            <div class="btn">
+                <button id="guest-one-increment-btn">+1</button>
+                <button id="guest-two-increment-btn">+2</button>
+                <button id="guest-three-increment-btn">+3</button>
+            </div>
+        </section>
+        <section class="winner">
+            <h3>Winnner</h3>
+            <p id="winner-el">No one</p>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
